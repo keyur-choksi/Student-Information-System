@@ -1,0 +1,76 @@
+﻿body {
+    background-image: url(../../images/Back3.jpg);
+    margin: 0;
+}
+
+.bodyblock {
+    font-family: Ebrima;
+    color: white;
+    font-size: x-large;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-left: 3%;
+    padding-top: 25px;
+    padding-bottom:25px;
+    border-radius: 15px 15px;
+    border: 1px solid white;
+    background-color: rgba(0,0, 0, 0.3);
+}
+
+    .bodyblock a {
+        font-size: medium;
+        color: white;
+        float: right;
+        padding:0px 25px 10px;
+        text-decoration: none;
+    }
+
+        .bodyblock a:hover {
+            transition: ease-in-out;
+            transition-duration: 0.5s;
+            color: cadetblue;
+        }
+.button {
+    background-color: transparent; 
+    color: white;
+    padding:8px 25px 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    
+    margin-right:4%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:5px 5px;
+    border: 2px solid rgba(76,175,80,0.8);
+        
+}
+
+.button:hover {
+    background-color: rgba(76,175,80,0.8);
+    color: white;
+}
+
+.table {
+    width: 97%;
+    font-family: Ebrima;
+    color: white;
+    margin-right: 50px;
+    border:4px solid white;
+}
+ 
+.table2 {
+    width: 97%;
+    font-family: Ebrima;
+    color: white;
+    margin-right: 50px;
+}
+       
+.td {
+    width: 24%;
+    text-align:right;
+}
+
+.tdimg {
+    width: 18%;
+}

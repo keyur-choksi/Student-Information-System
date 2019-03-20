@@ -1,0 +1,54 @@
+﻿body {
+    background-image: url(../../images/Back2.jpg);
+    background-size:cover;
+    margin: 0;
+}
+
+.bodyblock {
+    font-family: Ebrima;
+    color: white;
+    font-size: x-large;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-left: 3%;
+    padding-top: 25px;
+    border-radius: 15px 15px;
+    border: 1px solid white;
+    background-color: rgba(0,0, 0, 0.3);
+}
+
+.hr {
+    padding-right: 100px;
+}
+
+.table {
+    width: 97%;
+    font-family: Ebrima;
+    color: white;
+    margin-right: 50px;
+}
+
+.td {
+    width: 15%;
+}
+
+.button {
+    background-color: transparent; 
+    color: white;
+    padding:8px 25px 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    
+    margin-right:4%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:5px 5px;
+    border: 2px solid rgba(76,175,80,0.8);
+        
+}
+
+.button:hover {
+    background-color: rgba(76,175,80,0.8);
+    color: white;
+}

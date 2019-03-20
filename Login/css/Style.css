@@ -1,0 +1,72 @@
+﻿body {
+    background: url(../../images/Back1.jpg);
+    margin: 0;
+}
+
+.loginblock {
+    font-family: Ebrima;
+    color: white;
+    font-size: x-large;
+    margin-top: 10%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.4);
+    height: 300px;
+    width: 500px;
+    float: right;
+}
+
+[type=text], [type=password] {
+    background-color: transparent;
+    padding-left: 10px;
+    margin-left: 8px;
+    border: 0px solid #ccc;
+    border-bottom: 2px solid black;
+    -webkit-transition: 0.5s;
+    outline: none;
+    font-size: large;
+    font-family: Ebrima;
+    color: white;
+}
+
+[type=password] {
+    margin-left: 13px;
+}
+
+    [type=text]:focus, [type=password]:focus {
+        border-bottom: 3px solid white;
+    }
+
+/*=================================*/
+.button {
+    background-color: transparent; 
+    color: white;
+    padding:8px 25px 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    float:right;
+    margin-right:4%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:5px 5px;
+    border: 2px solid rgba(76,175,80,0.8);
+        
+}
+
+.button:hover {
+    background-color: rgba(76,175,80,0.8);
+    color: white;
+}
+
+.leftimg {
+    opacity:0.6;
+    margin:50px 20px 50px 100px;
+    height:426px;
+}
+
+
+    

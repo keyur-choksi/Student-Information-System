@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master_Page.master.cs" Inherits="Faculty_Master_Page" %>
+
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/bg_logo.png" />
+    <link href="css/Style.css" rel='stylesheet' type='text/css' />
+    <link href="../Common_Style.css" rel='stylesheet' type='text/css' />
+
+
+</head>
+<body>
+    <form runat="server" id="ab">
+        <div class="header">
+            Student Information System
+        <asp:LinkButton ID="btn" Text="Logout" runat="server" OnClick="btn_Click" />
+            <asp:LinkButton ID="btn_info" Text="About" runat="server" OnClick="btn_info_Click" />
+        </div>
+
+        <div runat="server" id="about" visible="false" class="bodyblock">
+            <table class="table2" border="0" cellpadding="5">
+                Your Infomation
+                <hr class="hr" style="margin-left: -40px;" />
+                <tr>
+                    <td style="width: 15%;">Name</td>
+                    <td style="width: 1%;">:</td>
+                    <td>
+                        <asp:Label ID="nm" runat="server" /></td>
+                    <td rowspan="3" style="width: 20%;">
+                        <asp:Image ID="Image1" runat="server" Width="70%" /></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>:</td>
+                    <td>
+                        <asp:Label ID="city" runat="server" /></td>
+                </tr>
+                <tr>
+                    <td>Contect</td>
+                    <td>:</td>
+                    <td>
+                        <asp:Label ID="contect" runat="server" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td colspan="2">
+                        <asp:Label ID="email" runat="server" /></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="bodyblock">
+            <asp:Label ID="lbl_nm" runat="server" />
+            <a href="Studinfo_index.aspx">Student Information</a>
+            <a href="Student_Attendance.aspx">View Attendance</a>
+            <a href="Studinfo_NewAttendance.aspx">Add New Attendance</a>
+            <hr style="margin-left: -40px;" />
+
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+﻿body {
+    background: url(../../images/Back6.jpg);
+    margin: 0;
+}
+
+    .bodyblock1 {
+    font-family: Ebrima;
+    color: white;
+    font-size: x-large;
+    border: 1px solid white;
+    padding-left:3%;
+    padding-top:1%;
+    margin-top:8%;
+    background-color: rgba(0,0, 0, 0.3);
+    height:250px;
+    width:33%;
+    margin-left:32%;
+}
+
+.table {
+    font-family: Ebrima;
+    color: white;
+    font-size: large;
+    padding:5px 5px 5px 5px;
+
+}
+
+.button {
+    background-color: transparent; 
+    color: white;
+    padding:8px 25px 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-right:4%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:5px 5px;
+    border: 2px solid rgba(76,175,80,0.8);
+        
+}
+
+.button:hover {
+    background-color: rgba(76,175,80,0.8);
+    color: white;
+}
+
+[type=password] {
+    background-color: transparent;
+    
+    
+    border: 0px solid #ccc;
+    border-bottom: 2px solid black;
+    -webkit-transition: 0.5s;
+    outline: none;
+    font-size: large;
+    font-family: Ebrima;
+    color: white;
+}
+
+
+    [type=password]:focus {
+        border-bottom: 3px solid white;
+    }

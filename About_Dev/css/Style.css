@@ -1,0 +1,28 @@
+﻿body {
+    background: url(../../images/Back6.jpg);
+    margin: 0;
+}
+
+    .bodyblock {
+    font-family: Ebrima;
+    color: white;
+    font-size: 22px;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-left: 3%;
+    padding-top: 25px;
+    border-radius: 15px 15px;
+    border: 1px solid white;
+    background-color: rgba(0,0, 0, 0.3);
+    height:520px;
+}
+
+    .vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
